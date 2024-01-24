@@ -1,0 +1,17 @@
+{
+    "name": "danilocgsilva/database_discover_cli",
+    "autoload": {
+        "psr-4": {
+            "Danilocgsilva\\DatabaseDiscoverCli\\": "src/"
+        }
+    },
+    "require": {
+	    "danilocgsilva/database_discover": "^1.0"
+    },
+    "repositories": [
+	    {
+            "type": "vcs",
+            "url": "git@github.com:danilocgsilva/database_discover.git"
+        }
+    ]
+}
